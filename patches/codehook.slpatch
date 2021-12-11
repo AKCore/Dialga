@@ -13,3 +13,21 @@
 
 245E590: // generate random monsNo
     b monsHook
+
+[version=111, target=main]
+
+2C0CA8: //Logging init
+	//old funciton found in 
+	//nn:main
+	//.text:00000000002C0CA4                 STR             X8, [SP,#0x140+var_98]
+	//.text:00000000002C0CA8                 BL              sub_30E660
+	//.text:00000000002C0CAC                 MOV             W19, W0
+	bl tryInitSocket
+
+20D11C4: //Generate Random monsNo
+	//old function found in 
+	//pml.pokepara.evolvemanager$$getEvolvedmonsNoByLevelup
+	//.text.1:00000000020D11BC                 LDR             X0, [X22,#0x20] ; this
+	//.text.1:00000000020D11C0                 MOV             X1, XZR ; method
+	//.text.1:00000000020D11C4                 BL              Pml.PokePara.Accessor$$GetMonsNo
+	b monsHook

@@ -1,7 +1,7 @@
 #include "logger.hpp"
 
-#define HOST_IP          "0.0.0.0" // set your IP address here 
-#define PORT             (u16)0000 // set Port here
+#define HOST_IP          "127.0.0.1" // set your IP address here 
+#define PORT             (u16)1234 // set Port here
 
 #define	MSG_DONTWAIT	 0x00000080
 

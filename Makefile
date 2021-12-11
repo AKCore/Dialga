@@ -3,12 +3,13 @@
 
 .PHONY: all clean starlight send
 
-BDSPVER ?= 110
-BDSPVERSTR ?= 1.1.0
+BDSPVER ?= 111
+BDSPVERSTR ?= 1.1.1
 S2ROMTYPE ?= US
 
 BUILDID100 ?= F87FC6075104EC4D9642A4AA6BB22216
 BUILDID110 ?= EA058A067CBD6943A6CF65B4588B6098
+BUILDID111 ?= D9E96FB92878E3458AAE7E8D31AB32A9
 
 PROJNAME ?= BDSP
 
@@ -21,7 +22,7 @@ starlight:
 	mkdir -p starlight_patch_$(BDSPVER)/atmosphere/exefs_patches/$(PROJNAME)/
 	mkdir -p starlight_patch_$(BDSPVER)/atmosphere/contents/0100000011D90000/exefs/
 	
-	mv starlight_patch_$(BDSPVER)/$(BUILDID110).ips starlight_patch_$(BDSPVER)/atmosphere/exefs_patches/$(PROJNAME)/$(BUILDID110).ips
+	mv starlight_patch_$(BDSPVER)/$(BUILDID111).ips starlight_patch_$(BDSPVER)/atmosphere/exefs_patches/$(PROJNAME)/$(BUILDID111).ips
 	mv $(shell basename $(CURDIR))$(BDSPVER).elf starlight_patch_$(BDSPVER)/subsdk1.elf
 	mv $(shell basename $(CURDIR))$(BDSPVER).nso starlight_patch_$(BDSPVER)/atmosphere/contents/0100000011D90000/exefs/subsdk1
 
