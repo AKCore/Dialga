@@ -10,7 +10,7 @@
 #include "logger.hpp"
 #include "log.h"
 
-void battleHook(Dpr::Battle::Logic::MainModule *mainModule, int *seq) {
+/*void battleHook(Dpr::Battle::Logic::MainModule *mainModule, int *seq) {
 
      __asm("MOV X19, X0");
      __asm("MOV X20, X1");
@@ -20,7 +20,7 @@ void battleHook(Dpr::Battle::Logic::MainModule *mainModule, int *seq) {
 
      __asm("MOV X1, X20");
      __asm("LDR X8, [X19,#0x40]");
-}
+}*/
 
 int32_t monsHook(Pml::PokePara::Accessor *accessor) {
      
