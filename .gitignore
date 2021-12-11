@@ -10,7 +10,6 @@
 *.nam
 *.nro
 *.o
-*.txt
 *.til
 *.pchtxt
 *.ips
@@ -24,7 +23,6 @@ linkerscripts/symstemp.ld
 starlight_patch*/
 scripts/.idea/*
 !exported.txt
-scripts/sendPatch.py
 1.0 Dumps/
 1.1 Dumps/
 crashes/

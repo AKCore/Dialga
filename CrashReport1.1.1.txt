@@ -1,0 +1,22 @@
+Module Info:
+    Number of Modules:           5
+    Module 00:
+        Address:                 0000001081c00000-0000001081c02000
+        Name:                    nnrtld
+        Build Id:                6F8B1226CC8CD958021D6BFD226EBF23F892AB9B000000000000000000000000
+    Module 01:
+        Address:                 0000001081c04000-00000010848d2000
+        Name:                    SwitchPlayer.nss
+        Build Id:                D9E96FB92878E3458AAE7E8D31AB32A900000000000000000000000000000000
+    Module 02:
+        Address:                 0000001086c1f000-0000001086f69000
+        Name:                    multimedia
+        Build Id:                507F19D1240D09D00992248E8A0FD77EBD784EB4000000000000000000000000
+    Module 03:
+        Address:                 00000010872c5000-00000010872c6000
+        Name:                    Dialga
+        Build Id:                B85A516FD60BDC46485FC344BEFF2946969D78F1000000000000000000000000
+    Module 04:
+        Address:                 00000010878ea000-0000001087e78000
+        Name:                    nnSdk
+        Build Id:                2D369D9999E3E10E665106F840FFFF9BDAA0BB8E000000000000000000000000
